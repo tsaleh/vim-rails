@@ -504,6 +504,10 @@ in an initialization routine of some sort (e.g., an autocommand); see
 			model, controller, or both (as with :Rintegrationtest)
 			is used as a default.
 
+                        Keep in mind that the given name must conform to vim's
+                        naming conventions.  Underscores, for example, will
+                        result in hard-to-decipher error messages.
+
 						*rails-:Rcommand*
 :Rcommand		Obsolete alias for |:Rnavcommand|.
 
